@@ -1,0 +1,51 @@
+.header{
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    overflow: hidden;
+    background:linear-gradient(to right,#0bb427,#058b1b);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 40px;
+}
+
+.header-links{
+    display: flex;
+}
+
+.header-links ul li {
+    list-style: none;
+    display:inline-block;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.header-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 15px;
+}
+
+.header-links ul li a:hover{
+    color: rgb(11, 11, 11);
+}
+
+.img {
+    height: 50px;
+}
+
+
+
+
